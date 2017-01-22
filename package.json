@@ -1,0 +1,21 @@
+{
+  "name": "CommonCanvas",
+  "version": "1.0.0",
+  "description": "A common canvas for 2 people to play around from separate machines. Socket example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "p5.js",
+    "sockets",
+    "node"
+  ],
+  "author": "Akhil Sudhakaran",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.14.0",
+    "socket.io": "~1.7.2"
+  }
+}
